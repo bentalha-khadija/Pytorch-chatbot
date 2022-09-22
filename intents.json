@@ -1,0 +1,205 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Is anyone there?",
+                "Hello",
+                "How are you",
+                "Hi there",
+                "Hey",
+                "Good day",
+                "Hi",
+                "Hola"
+            ],
+            "responses": [
+                "Hello, thanks for asking",
+                "Hey",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "See you later",
+                "Bye",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "Have a nice day",
+                "See you later, thanks for visiting",
+                "See you!",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks for helping me",
+                "Thanks",
+                "Thank's a lot!",
+                "That's helpful",
+                "Thank you",
+                "Awesome, thanks"
+            ],
+            "responses": [
+                "My pleasure",
+                "Happy to help!",
+                "Any time!"
+            ]
+        },
+        {
+            "tag": "service",
+            "patterns": [
+                "What kinds of services are there?",
+                "Which services do you have?",
+                "What do you offer?"
+            ],
+            "responses": [
+                "Developpement de site Internet, Design des interfaces media, accompagnement des projets de la conception, à la realisation."
+            ]
+        },
+        {
+            "tag": "identification",
+            "patterns": [
+                "what's your name?",
+                "what's ur name?",
+                "who are you?"
+            ],
+            "responses": [
+                "I'm tasmim's virtual assistant, I can help you by offering support about our services."
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you?",
+                "what's your age?",
+                "what's ur age?",
+                "how old are u?",
+                "how old",
+                "how old is tasmim web",
+                "what is your age",
+                "how old are you",
+                "age?"
+            ],
+            "responses": [
+                "I don't really have an age"
+            ]
+        },
+        {
+            "tag": "happiness",
+            "patterns": [
+                "I'm happy",
+                "I'm so happy",
+                "nice, that's helpful",
+                "I'm satisfied"
+            ],
+            "responses": [
+                "Great!",
+                "That's Great!",
+                "Oh nice"
+            ]
+        },
+        {
+            "tag": "sadness",
+            "patterns": [
+                "I'm sad",
+                "I'm unhappy",
+                "I want to cry",
+                "I'm miserable"
+            ],
+            "responses": [
+                "I'm giving you a virtual hug right now.",
+                "Sorry to hear that :(",
+                "Every thing well be okay"
+            ]
+        },
+        {
+            "tag": "address",
+            "patterns": [
+                "where are you located",
+                "where do you live",
+                "can you give me your location",
+                "can you give me your address",
+                "can you give me your company address",
+                "can you give me your company location"
+            ],
+            "responses": [
+                "Casablanca, Maroc"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "how can I contact you?",
+                "how can I reach you?",
+                "can you give me your contact",
+                "can you give me your email",
+                "can you give me your phone number",
+                "I want to call the company",
+                "I want to call you",
+                "what's your number?"
+            ],
+            "responses": [
+                "You can call us on +212 700697920"
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you accept Mastercard?",
+                "Are you cash only?",
+                "Do you take credit cards?",
+                "Can I pay with Paypal?"
+            ],
+            "responses": [
+                "We accept VISA, Mastercard and Paypal",
+                "We accept most major credit cards, and Paypal"
+            ]
+        },{"tag": "name",
+        "patterns": ["what is your name", "your name","name?","what should I call you", "whats your name?"],
+        "responses": ["You can call me tasmim's bot.", "I'm tasmim's bot!"]
+       },{
+        "tag": "Identity",
+        "patterns": [
+            "Who are you",
+            "what are you"
+        ],
+        "responses": [
+            "I am tasmim's bot, a Deep-Learning chatbot"
+        ]
+    },
+        {
+            "tag": "hours",
+            "patterns": [
+                "when are you guys open",
+                "what are your hours",
+                "hours of operation"
+            ],
+            "responses": [
+                "We are open 7am-4pm Monday-Friday!"
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What support is offered",
+                "How you can be helpful?",
+                "What help you provide?"
+            ],
+            "responses": [
+                "I can help you by Offering support about our services",
+                "I can guide you through the services we provide",
+                "I can answer your questions about our services"
+            ]
+        }
+    ]
+}
